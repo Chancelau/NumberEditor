@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    >
+
+    <ImageButton
+        android:id="@+id/btn_sub"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/sub_bg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_sub"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/tv_number"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/number_bg"
+        android:ems="3"
+        android:maxLength="4"
+        android:gravity="center"
+        android:inputType="none"
+        android:text="99"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@+id/btn_add"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/add_bg"
+        android:gravity="center"
+
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_add"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
