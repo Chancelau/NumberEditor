@@ -83,6 +83,7 @@ public class NumberEditorView extends LinearLayout {
 
     public void setmNumber(int mNumber) {
         this.mNumber = mNumber;
+        etNumber.setText(mNumber+"");
     }
 
     public boolean ismIsNumEditor() {
