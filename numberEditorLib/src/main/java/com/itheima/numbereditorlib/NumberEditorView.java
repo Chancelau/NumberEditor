@@ -77,6 +77,38 @@ public class NumberEditorView extends LinearLayout {
 
     }
 
+    public int getmNumber() {
+        return mNumber;
+    }
+
+    public void setmNumber(int mNumber) {
+        this.mNumber = mNumber;
+    }
+
+    public boolean ismIsNumEditor() {
+        return mIsNumEditor;
+    }
+
+    public void setmIsNumEditor(boolean mIsNumEditor) {
+        this.mIsNumEditor = mIsNumEditor;
+    }
+
+    public int getmMaxValue() {
+        return mMaxValue;
+    }
+
+    public void setmMaxValue(int mMaxValue) {
+        this.mMaxValue = mMaxValue;
+    }
+
+    public int getmMinValue() {
+        return mMinValue;
+    }
+
+    public void setmMinValue(int mMinValue) {
+        this.mMinValue = mMinValue;
+    }
+
     /**
      * 初始化控件
      */
